@@ -1,0 +1,163 @@
+/* Global styles */
+body {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #4a4a4a;
+
+/* Heading styles */
+h1 {
+    color: #252323;
+    font-family: 'times new roman', cursive;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+li:before {
+    content: '•';
+    color: #0a0a0a;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* Button styles */
+button {
+    background-color: #d9534f;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+/* Link styles */
+a {
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c9302c;
+}
+
+/* Image styles */
+.image {
+    width: 60%; /* Gambar akan menyesuaikan lebar kontainer */
+    max-width: 60%;
+    height: auto; /* Menghindari gambar terlalu besar */
+    border-radius: 15px;
+    margin-bottom: 25px;
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar kontainer */
+}
+
+/* Tombol styles */
+button {
+    background-color: #d9534f;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+/* Container styles */
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Menengahkan isi dalam kontainer */
+    max-width: 500px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    margin: auto; /* Memastikan kontainer berada di tengah halaman */
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center; /* Menengahkan link di dalam list */
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+li:before {
+    content: '•';
+    color: #0a0a0a;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* Button styles */
+button {
+    background-color: #d9534f;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    display: inline-block; /* Mengubah display agar dapat di-align */
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+/* Link styles */
+a {
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c9302c;
+}
+
+}
